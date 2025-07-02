@@ -1,0 +1,71 @@
+h1 {
+    padding-left: 450px;
+}
+
+h2 {
+    margin-left: 200px;
+    color: navy
+}
+
+img {
+    height: 250px;
+    width: 350px;
+    border: 5px navy solid;
+}
+
+.child-me {
+    padding-left: 350px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: darkgray;
+}
+
+p {
+    font-size: 16px;
+    font-family: cursive
+    
+}
+
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    border: 5px black solid;
+    margin: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: orange;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+
+a:hover {
+    color: orange;
+    text-shadow: grey;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}

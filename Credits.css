@@ -1,0 +1,70 @@
+h1 {
+    padding-left:450px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+body {
+    background-color: black;
+}
+
+.third-text {
+    padding-left: 250px; 
+}
+
+.button-two {
+    padding-left: 450px;
+    color:greenyellow;
+}
+
+.credit-box {
+    justify-content: center;
+    display: flex;
+    padding-right: 50px;
+}
+
+.neon-box {
+    justify-content: center;
+    display: flex;
+    padding-right: 50px;
+}
+
+.text-box-one {
+    padding-left: 350px;
+}
+
+.neon-box-text {
+    padding-left: 350px;
+}
+
+button {
+    background: radial-gradient(darkgrey, orange);
+    font-family: cursive;
+    width: 50px;
+    height: 30px;
+    margin-left: 550px;
+}
+
+h2 {
+    padding-left: 50px;
+    font-size: 15px;
+    color: grey;
+    font-family: cursive, serif;
+}
+
+h3 {
+    padding-left: 250px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    border: 5px orange solid;
+}
+
+
+

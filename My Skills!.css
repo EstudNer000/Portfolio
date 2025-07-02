@@ -1,0 +1,192 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    background: -webkit-linear-gradient(darkgrey,darkcyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 250px;
+}
+
+button {
+    background: radial-gradient(darkgrey, orange);
+    font-family: cursive;
+    width: 50px;
+    height: 30px;
+    margin-left: 550px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-1{
+    position: relative;
+    width: 25%;
+}
+
+.container-2 {
+    position: relative;
+    width: 25%;
+}
+
+.container-3 {
+    position: relative;
+    width: 25%;
+}
+
+.container-4 {
+    position: relative;
+    width: 25%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-2 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.image-3 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.image-4 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: darkblue;
+}
+
+.overlay-3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: yellow;
+}
+
+.overlay-4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(to right, skyblue, orange)
+}
+
+
+
+
+.container-1:hover .overlay {
+    opacity: 1;
+}
+
+.container-2:hover .overlay-2 {
+    opacity: 1;
+}
+
+.container-3:hover .overlay-3 {
+    opacity: 1;
+}
+
+.container-4:hover .overlay-4 {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    text-align:center;
+}
+
+
+.text-2 {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    text-align:center;
+}
+
+
+.text-3 {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    text-align:center;
+}
+
+.text-4 {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    text-align:center;
+}

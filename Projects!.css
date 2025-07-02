@@ -1,0 +1,138 @@
+img {
+    height: 230px;
+    width: 330px;
+    border: 5px gray solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+button {
+    background: radial-gradient(darkgrey, greenyellow);
+    font-family: cursive;
+}
+
+.neonText {
+    text-shadow: 0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+      padding-left: 250px;
+      font-size: 20px;
+      padding-left: 200px;
+      font-family: cursive;
+}
+
+body {
+    background-color: black;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+.images-two {
+    display: flex;
+    justify-content: center;
+}
+
+.images-three {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heading-middle-text {
+    color: orange;
+    padding-left: 550px;
+}
+
+
+.ZombieKnight :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.ZombieKnight :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.space_invaders :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.space_invaders :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+
+.FEEDTHEDRAGON :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.FEEDTHEDRAGON :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+
+.BurgerDog :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.BurgerDog :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.Snake :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.Snake :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.calculator :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.calculator :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.PickYourEnding :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.PickYourEnding :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.SweetOrSour :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px orange;
+}
+
+.SweetOrSour :before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
